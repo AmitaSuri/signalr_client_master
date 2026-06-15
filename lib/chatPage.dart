@@ -58,7 +58,7 @@ class MessageChatView extends StatelessWidget {
                 propertyName: ChatPageViewModel.connectionIsOpenPropName,
                 builder: (context, snapshot) {
                   return Text(
-                      vm.connectionIsOpen ? "Connected" : 'Disconnected');
+                      vm.connectionIsOpen ? "Connected" : "Disconnected");
                 }),
           ],
         ),
