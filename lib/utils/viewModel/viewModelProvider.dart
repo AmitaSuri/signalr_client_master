@@ -58,7 +58,7 @@ class _ViewModelViewStateManagerState extends State<ViewModelViewStateManager> {
 
   @override
   void initState() {
-    //  super.initState();
+    super.initState();
     widget._viewModel.viewInitState();
   }
 
