@@ -21,7 +21,7 @@ class DelegatingLogSink {
   }
 
   void dispose() {
-    _subscription?.cancel();
+    //_subscription?.cancel();
   }
 
   void _handleOnDone() {
