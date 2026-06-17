@@ -20,9 +20,9 @@ class DelegatingLogSink {
         .listen(_logMessage, onDone: _handleOnDone, cancelOnError: true);
   }
 
-  void dispose() {
-    //_subscription?.cancel();
-  }
+  // void dispose() {
+  //   _subscription?.cancel();
+  // }
 
   void _handleOnDone() {
     _subscription = null;
