@@ -71,7 +71,7 @@ class ChatPageViewModel extends ViewModel {
 
   void _handleLogMessage(LogRecord msg) {
     print(msg.message);
-    print('Test Message');
+    //print('Test Message');
   }
 
   void _httpClientCreateCallback(Client httpClient) {
