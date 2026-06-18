@@ -80,6 +80,6 @@ class _ViewModelViewStateManagerState extends State<ViewModelViewStateManager> {
   @override
   void dispose() {
     widget._viewModel.viewDispose();
-    //super.dispose();
+    super.dispose();
   }
 }
