@@ -58,7 +58,7 @@ class _ViewModelViewStateManagerState extends State<ViewModelViewStateManager> {
 
   @override
   void initState() {
-    //super.initState();
+    super.initState();
     widget._viewModel.viewInitState();
   }
 
@@ -77,9 +77,9 @@ class _ViewModelViewStateManagerState extends State<ViewModelViewStateManager> {
     super.deactivate();
   }
 
-  @override
-  void dispose() {
-    widget._viewModel.viewDispose();
-    //super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   widget._viewModel.viewDispose();
+  //   super.dispose();
+  // }
 }
